@@ -31,6 +31,16 @@ window.BOSS_CONFIG = {
       correct: 1
     },
     {
+      q: "Quale di queste è la definizione più corretta di Deep Learning?",
+      options: [
+        "Un modello che si basa solo su dati molto approfonditi e verificati",
+        "Un tipo di intelligenza artificiale generativa",
+        "Una forma di machine learning che usa reti neurali con molti strati per imparare dai dati",
+        "Un sistema che permette all'AI di cercare informazioni sul web"
+      ],
+      correct: 2
+    },
+    {
       q: "Cosa si intende per sicofanzia?",
       options: [
         "La tendenza a inventare fonti",
@@ -55,7 +65,7 @@ window.BOSS_CONFIG = {
       options: [
         "La parola grammaticalmente più corretta",
         "La parola suggerita da un revisore umano",
-        "La parola statisticamente più probabile secondo i testi raccolti",
+        "La parola statisticamente più adatta secondo i testi raccolti",
         "La parola più rara in base al contesto"
       ],
       correct: 2
@@ -109,26 +119,6 @@ window.BOSS_CONFIG = {
         "Migliora le proprie capacità ogni volta che conversa con l'utente"
       ],
       correct: 3
-    },
-    {
-      q: "Cos'è un'allucinazione?",
-      options: [
-        "Un errore di battitura nella risposta",
-        "Una risposta corretta ma troppo creativa",
-        "Una risposta non vera, generata con sicurezza",
-        "Il rifiuto di rispondere a una domanda"
-      ],
-      correct: 2
-    },
-    {
-      q: "Perché un LLM ha bisogno di strumenti esterni per fare calcoli affidabili?",
-      options: [
-        "Perché le norme europee gli vietano di calcolare",
-        "Perché gli strumenti esterni servono solo a renderlo più veloce",
-        "Perché prevede parole e non ha un calcolatore interno",
-        "Perché sa contare solo nella versione a pagamento"
-      ],
-      correct: 2
     }
   ]
 };
